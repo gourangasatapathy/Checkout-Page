@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="devchallenges.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Checkout Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h2 class="header">Checkout</h2>
+        </header>
+
+        <main class="main">
+
+            <div class="left__container">
+                <form>
+                    <h4 class="contact_info">Contact infomation</h4>
+
+                    <label for="email" class="email">
+                        <h3 class="label_name">E-mail</h3>
+                        <div class="box">
+                            <i class="fa fa-envelope"></i>
+                            <input type="email" placeholder="Enter your email...">
+                        </div>
+                    </label>
+
+                    <label for="Phone" class="Phone">
+                        <h3 class="label_name">Phone</h3>
+                        <div class="box">
+                            <i class="fa fa-phone"></i>
+                            <input type="number" placeholder="Enter your phone...">
+                        </div>
+                    </label>
+
+                    <h4 class="contact_info">Shipping address</h4>
+
+
+                    <label for="Phone" class="Phone">
+                        <h3 class="label_name">Full name</h3>
+                        <div class="box">
+                            <span class="material-icons">account_circle</span>
+                            <input type="text" placeholder="Enter your Name...">
+                        </div>
+                    </label>
+
+                    <label for="address" class="address">
+                        <h3 class="label_name">Address</h3>
+                        <div class="box">
+                            <i class="fa fa-home"></i>
+                            <input type="text" placeholder="Your address..">
+                        </div>
+                    </label>
+
+                    <label for="city" class="city">
+                        <h3 class="label_name">City</h3>
+                        <div class="box">
+                            <span class="material-icons">apartment</span>
+                            <input type="text" placeholder="Your city..">
+                        </div>
+                    </label>
+
+                    <div class="mainbox">
+                        <label for="country" class="country">
+                            <h3 class="label_name">Country</h3>
+                            <div class="box">
+                                <i class="fa fa-globe"></i>
+                                <select name="country" id="country_option">
+                                    <option value="Afganistan">India</option>
+                                    <option value="Afganistan">Germany</option>
+                                    <option value="Afganistan">USA</option>
+                                </select>
+                            </div>
+                        </label>
+
+                        <label for="post_code" class="post_code">
+                            <h3 class="label_name">Postal code</h3>
+                            <div class="box">
+                                <span class="material-icons">pin_drop</span>
+                                <input type="number" placeholder="Your postal code..">
+                            </div>
+                        </label>
+
+                    </div>
+
+                    <label for="checkbox" class="checkbox">
+                        <input type="checkbox">
+                        <p class="check_para"> Save this information for next time</p>
+                    </label>
+
+                    <div class="button_container">
+                        <button class="continue">Continue</button>
+                    </div>
+
+
+
+
+                </form>
+
+
+            </div>
+
+
+            <div class="right__container">
+                <div class="checkout_details">
+
+                    <div class="checkout_box">
+                        <img src="photo1.png" alt="bag">
+                        <div class="price_container">
+                            <div class="price_subcontainer">
+                                <h3 class="item_name">Vintage Backbag</h3>
+                                <div class="price_column">
+                                    <span class="price discounted_price">$54.99</span>
+                                    <span class="price original_price">$94.99</span>
+                                </div>
+                            </div>
+                            <div class="number_of_item">
+                                <button class="btn">-</button>
+                                <p item_number>1</p>
+                                <button class="btn">+</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="checkout_box">
+                        <img src="photo2.png" alt="bag">
+                        <div class="price_container">
+                            <div class="price_subcontainer">
+                                <h3 class="item_name">Vintage Backbag</h3>
+                                <div class="price_column">
+                                    <span class="price discounted_price">$54.99</span>
+                                    <span class="price original_price">$94.99</span>
+                                </div>
+                            </div>
+                            <div class="number_of_item">
+                                <button class="btn">-</button>
+                                <p item_number>1</p>
+                                <button class="btn">+</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                    
+
+                    
+
+
+                <div class="price_details">
+                    <div class="shipping">
+                        <h3 class="Ship">Shipping</h3>
+                        <h3 class="shipping__price">$19</h3>
+                    </div>
+                    
+                    <div class="shipping shipping__">
+                        <h3 class="Ship">Total</h3>
+                        <h3 class="shipping__price">$148.98</h3>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
